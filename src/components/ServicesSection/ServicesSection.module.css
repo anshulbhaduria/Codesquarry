@@ -1,0 +1,84 @@
+.servicesSection {
+  height: 1772px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: var(--color-white);
+  padding: 0 120px;
+}
+
+.firstContainer,
+.secondContainer {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.firstContainer {
+  height: 238px;
+}
+
+.secondContainer {
+  width: 691px;
+  height: 226px;
+}
+
+.ball {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.thirdContainer {
+  width: 1200px;
+  height: 351px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fourthContainer {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.mainText {
+  font-size: 54px;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.subText {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.heroButtonOverride {
+  background-color: white !important;
+  color: black !important;
+}
+
+.buttonWrapper {
+  margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
